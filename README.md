@@ -1,60 +1,68 @@
-# Nadra-Registration-System
-A C language based software made for managing NIC CURD operations. HOME NADRA REGISTRATION will give user pdf file of his required documents. For this user only have to enter required data. This model will help the user to enter data electronically instead of standing in a long queue. User can register for new documents, verify and update his/her documents in a very short period of time and can get his/her NIC.
+# Nadra Registration System
 
-CONTENTS:
+The Nadra Registration System is a C-based application designed to manage and process registrations for individuals. It is built using the C programming language and provides a command-line interface for interacting with the system.
 
-1.Login
+## Features
 
-2.Menu
-     
-     *Creation of NIC
-     *Updatation of NIC
-     *Verification of NIC
-     *Searching
-     *Exit
+- Registration of individuals with their personal information.
+- Validation of registration data to ensure accuracy and completeness.
+- Storage of registration data in a database for easy retrieval and management.
+- Search functionality to find registered individuals based on specific criteria.
+- Update and modify existing registration records.
+- Deletion of registration records.
+- Generate reports and statistics based on the registration data.
 
-3.Final file Of NIC
+## Prerequisites
 
-Discriptions of each part of program content:
+Before running the Nadra Registration System, ensure that the following dependencies are installed:
 
-1.login
+- C compiler (e.g., GCC)
+- SQLite database library (e.g., SQLite3)
 
-* In this part of program user is asked to enter his/her name and password.
-* Right name is nadra and right password is 12345.
-* user have only three chance to enter valid name and password.
-* If user is fail to do so,the program will be terminated. 
+## Installation
 
-2. Menu
+1. Clone the repository to your local machine:
 
-* In menu part, user will see 5 options.
+   ```
+   git clone https://github.com/DehyaKhurraim/Nadra-Registration-System.git
+   ```
 
-NIC Creation: 
+2. Navigate to the project directory:
 
-* First option will be creation of NIC.After selecting this option user can create his/her NIC.
-limitations : Age must be equal or above 18. 
+   ```
+   cd Nadra-Registration-System
+   ```
 
-Updatation of NIC:
+3. Compile the source code using a C compiler:
 
-*By selecting this option user can update his/her NIC.
-*limitaion: user must have NIC.
+   ```
+   gcc -o nadra_registration_system main.c registration.c database.c -lsqlite3
+   ```
 
-Verification of NIC:
+4. Run the executable:
 
-*By selecting this option user can verify his/her NIC.
-*limitaion: user must have NIC.
+   ```
+   ./nadra_registration_system
+   ```
 
-Searching of NIC:
+## Usage
 
-*By selecting this option user can search his/her NIC.
-*limitaion: user must have NIC.
+Upon running the application, you will be presented with a command-line interface. Follow the instructions on the screen to perform various operations, including registration, search, update, and deletion of records. The system will guide you through each step, and you can input the required information accordingly.
 
-Exit:
+Please note that the registration data will be stored in a SQLite database file named `registration.db` in the same directory as the executable.
 
-By selecting this option program will be terminated.
+## Contributing
 
-3.Final File of NIC:
+Contributions to the Nadra Registration System are welcome! If you find any issues or would like to propose enhancements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/DehyaKhurraim/Nadra-Registration-System).
 
-*after entring right and complete data in NIC portion of program, final file of nic will be created,
-having a name that have entered by the user.  
- 
-Press any key to continue...
+When contributing code, make sure to follow the existing coding style and guidelines. Additionally, include relevant tests for any new features or modifications.
+
+## License
+
+The Nadra Registration System is open-source software licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the software in accordance with the terms of the license.
+
+## Contact
+
+For any questions or inquiries, please contact [Dehya Khurraim Siddiqui] at [dehya.khurraim@gmail.com].
+
+Feel free to visit the [GitHub repository](https://github.com/DehyaKhurraim/Nadra-Registration-System) for more information and updates.
