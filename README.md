@@ -1,6 +1,7 @@
 # Nadra Registration System
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
 The Nadra Registration System is a C-based application designed to manage and process registrations for individuals. It is built using the C programming language and provides a command-line interface for interacting with the system.
 
