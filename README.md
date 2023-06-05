@@ -1,4 +1,4 @@
-# Nadra Registration System
+Nadra-Registration-System# Nadra Registration System
 
 ![C](	https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
@@ -63,8 +63,8 @@ Contributions to the Nadra Registration System are welcome! If you find any issu
 When contributing code, make sure to follow the existing coding style and guidelines. Additionally, include relevant tests for any new features or modifications.
 
 ## License
-[![GitHub license](https://img.shields.io/github/license/DehyaKhurraim/StrapDown.js.svg)](https://github.com/DehyaKhurraim/Nadra-Registration-System/blob/master/LICENSE)
-[![Latest release](https://badgen.net/github/release/DehyaKhurraim/Strapdown.js)](https://github.com/DehyaKhurraim/Nadra-Registration-System/releases)
+[![GitHub license](https://img.shields.io/github/license/DehyaKhurraim/Nadra-Registration-System.svg)](https://github.com/DehyaKhurraim/Nadra-Registration-System/blob/master/LICENSE)
+[![Latest release](https://badgen.net/github/release/DehyaKhurraim/Nadra-Registration-System)](https://github.com/DehyaKhurraim/Nadra-Registration-System/releases)
 
 The Nadra Registration System is open-source software licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the software in accordance with the terms of the license.
 
