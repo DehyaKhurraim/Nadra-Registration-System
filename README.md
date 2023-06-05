@@ -1,7 +1,9 @@
 # Nadra Registration System
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C](	https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+
+![made-with-C](https://img.shields.io/badge/Made%20with-C-1f425f.svg)
+![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)
 
 The Nadra Registration System is a C-based application designed to manage and process registrations for individuals. It is built using the C programming language and provides a command-line interface for interacting with the system.
 
@@ -61,6 +63,8 @@ Contributions to the Nadra Registration System are welcome! If you find any issu
 When contributing code, make sure to follow the existing coding style and guidelines. Additionally, include relevant tests for any new features or modifications.
 
 ## License
+[![GitHub license](https://img.shields.io/github/license/DehyaKhurraim/StrapDown.js.svg)](https://github.com/DehyaKhurraim/Nadra-Registration-System/blob/master/LICENSE)
+[![Latest release](https://badgen.net/github/release/DehyaKhurraim/Strapdown.js)](https://github.com/DehyaKhurraim/Nadra-Registration-System/releases)
 
 The Nadra Registration System is open-source software licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the software in accordance with the terms of the license.
 
